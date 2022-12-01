@@ -1,22 +1,22 @@
 #!/usr/bin/python3
 
 if __name__ == "__main__":
-	""" Do basic math calculations using custom module"""
+	""" Do basic math calculations sum, difference, product and quotient of 10 and 5"""
 	from calculator_1 import add, sub, mul, div
 
 	a = 10
 	b = 5
 	
-	""" sum two integer"""
+	""" sum of 10 and 5"""
 	print("{} + {} = {}".format(a, b, add(a, b)))
 
-	""" substract two integer"""
-	print(f"{a} - {b} = {sub(a, b)}")
+	""" difference of 10 and 5"""
+	print("{} - {} = {}".format(a, b, sub(a, b)))
 
-	""" multiply two integer"""
+	""" product of 10 and 5"""
 	print("{} * {} = {}".format(a, b, mul(a, b)))
 
-	"""divid two integer"""
-	print(f"{} / {} = {div(a, b)}")
+	"""quotient of 10 and 5"""
+	print("{} / {} = {}".format(a, b, div(a, b)))
 
 
