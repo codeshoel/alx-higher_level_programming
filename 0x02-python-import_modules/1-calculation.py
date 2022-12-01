@@ -8,15 +8,15 @@ if __name__ == "__main__":
 	b = 5
 	
 	""" sum of 10 and 5"""
-	print("{} + {} = {}\n".format(a, b, add(a, b)))
+	print("{} + {} = {}".format(a, b, add(a, b)), "\n")
 
 	""" difference of 10 and 5"""
-	print("{} - {} = {}\n".format(a, b, sub(a, b)))
+	print("{} - {} = {}\n".format(a, b, sub(a, b)), "\n")
 
 	""" product of 10 and 5"""
-	print("{} * {} = {}\n".format(a, b, mul(a, b)))
+	print("{} * {} = {}\n".format(a, b, mul(a, b)), "\n")
 
 	"""quotient of 10 and 5"""
-	print("{} / {} = {}\n".format(a, b, div(a, b)))
+	print("{} / {} = {}\n".format(a, b, div(a, b)), "\n")
 
 
