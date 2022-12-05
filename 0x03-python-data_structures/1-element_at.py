@@ -1,9 +1,6 @@
 #!/usr/bin/python3
 
 def element_at(mylist, idx):
-	if idx < 0:
+	if (idx < 0) or (idx > len(my_list) - 1):
 		return None
-	if idx > range(mylist):
-		return None
-	else:
-		print("Element at index {:d} is {}".format(idx, element_at(mylist, idx)))
+	return(my_list[idx])
